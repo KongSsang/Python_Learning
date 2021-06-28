@@ -191,5 +191,3 @@ def solution(dartResult):
             
     answer = (answer1+answer2+answer3)
     return answer
-
-solution('0S#0S#0S#')
