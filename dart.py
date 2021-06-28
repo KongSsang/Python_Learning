@@ -6,7 +6,7 @@ def solution(dartResult):
     a = len(dartResult)
     dartResult = 'xx'+dartResult+'x'
     result = []
-##########################################################    
+#########################################################  
     for i in range(2,a+2):
         if dartResult[i] in ['S','D','T']:
             if dartResult[i-1] == '0':
@@ -25,14 +25,14 @@ def solution(dartResult):
                     result.append((dartResult[i-1]+dartResult[i]+dartResult[i+1]))
                 else:
                     result.append((dartResult[i-1]+dartResult[i]))
-##########################################################
+#########################################################
     formula1 = str(result[0])
     formula2 = str(result[1])
     formula3 = str(result[2])
     fm1 = 0
     fm2 = 0
     fm3 = 0
-##########################################################
+#########################################################
     if len(formula1) == 2:
         fm1 = int(formula1[0])
         if formula1[1] == 'S':
@@ -80,7 +80,7 @@ def solution(dartResult):
                 answer1 -= 100
             elif formula1[2] == 'T':
                 answer1 -= 1000
-##########################################################
+#########################################################
     if len(formula2) == 2:
         fm2 = int(formula2[0])
         if formula2[1] == 'S':
@@ -134,7 +134,7 @@ def solution(dartResult):
                 answer2 -= 100
             elif formula2[2] == 'T':
                 answer2 -= 1000
-##########################################################
+#########################################################
     if len(formula3) == 2:
         fm3 = int(formula3[0])
         if formula3[1] == 'S':
