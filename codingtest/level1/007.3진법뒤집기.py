@@ -30,6 +30,6 @@ def solution(n):
             answer += temp2
         else:
             pass
-    print(answer)
+        
     return answer
 
