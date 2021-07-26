@@ -23,6 +23,3 @@ def solution(s, n):
         else:
             answer += ' '
     return answer
-
-solution("AB",1)
-
