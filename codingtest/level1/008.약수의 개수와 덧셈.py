@@ -10,3 +10,4 @@ def solution(left, right):
         elif count % 2 == 1:
             answer -= i
     return answer
+
