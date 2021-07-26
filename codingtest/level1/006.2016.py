@@ -17,7 +17,3 @@ def solution(a, b):
     answer = days[annual.index(day) % 7]
 
     return answer
-
-
-solution(3,20)
-
