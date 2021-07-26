@@ -25,3 +25,4 @@ def solution(s, n):
     return answer
 
 solution("AB",1)
+
