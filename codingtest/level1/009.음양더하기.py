@@ -7,4 +7,3 @@ def solution(absolutes, signs):
             answer -= absolutes[i]
 
     return answer
-
