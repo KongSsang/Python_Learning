@@ -33,4 +33,3 @@ def solution(n):
     print(answer)
     return answer
 
-solution(78413450)
