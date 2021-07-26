@@ -72,7 +72,3 @@ def solution(numbers, hand):
                     l_loc = i
     return answer
 
-print(solution([7],"left"))
-print(l_loc)
-print(r_loc)
-
